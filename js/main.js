@@ -16,6 +16,8 @@ pstvrb = prompt('A past tense verb (ran, burped, etc.)');
 
 storyType = prompt('Which story would you like?\na) Snacking\nb) Escaping\nc) Winning\n\nEnter the letter below:');
 
+document.documentElement.style.setProperty('--color', colour);
+
 switch (storyType.toLowerCase()) {
   case 'a' :
     document.write(`After snacking on <span>${adj}</span> treats, the <span>${colour}</span> bellied <span>${creature}</span> <span>${pstvrb}</span> for hours.`);
