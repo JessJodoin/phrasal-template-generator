@@ -33,7 +33,6 @@ js:
       - "prompt"
       - "(if|switch)"
       - "document.write"
-      - "\\+"
       - "\\\\n"
       - "Let’s make a story together!"
       - "A colour"
